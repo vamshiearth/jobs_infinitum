@@ -1,0 +1,46 @@
+.list{
+  display: block;
+}
+
+
+.navbar{
+    list-style-type: none;
+    font-weight: 600;
+    margin: 15px 0;
+    padding: 0;
+    overflow: hidden;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    height: 50px;
+    background: white;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 10px;
+    border-radius: 10px;
+    
+}
+.link{
+    margin:0px 20px;
+    text-decoration: none;
+    color: #044ebd;
+    cursor: pointer;
+}
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+
+.sticky + .content {
+    padding-top: 60px;
+  }
+
+
+  
